@@ -1,0 +1,1 @@
+docker run --name tdc-live -v /var/lib/tdcoin-data:/app/data -p 9902:9902 -p 9901:9901 -td tdc-docker-image
